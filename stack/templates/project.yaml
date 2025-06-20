@@ -1,0 +1,25 @@
+databases:
+- name: {{name}}
+schemas:
+- name: main
+  database: {{name}}
+roles:
+- name: {{name}}_ro
+- name: {{name}}_rw
+roleGrants:
+- name: {{name}}_ro
+  toRoles:
+  - {{name}}_rw
+privilegeGrants:
+- privilege: usage
+  objectType: database
+  objectName: {{name}}
+  roleName: {{name}}_ro
+- privilege:
+    - monitor
+    - modify
+  objectType: database
+  objectName: {{name}}
+  roleName: {{name}}_rw
+warehouses:
+- name:  {{name}}_wh

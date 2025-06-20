@@ -1,0 +1,4 @@
+users:
+- name: {{name}}
+  properties:
+    default_warehouse: {{default_warehouse}}

@@ -1,0 +1,4 @@
+warehouses:
+  - name:  {{name}}_wh
+    properties:
+      warehouse_size: {{size}}

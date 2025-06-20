@@ -1,0 +1,6 @@
+defaults:
+  default_warehouse: DEFAULT_USER_WH
+entries:
+  - name: ARIA
+  - name: TIM
+    default_warehouse: DEFAULT_USER_WH

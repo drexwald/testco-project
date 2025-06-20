@@ -1,0 +1,39 @@
+export PATH="/c/Program Files/Microsoft/jdk-11.0.27.6-hotspot/bin:$PATH" && java -version
+
+# as admin for all users
+[Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Program Files\Microsoft\jdk-11.0.27.6-hotspot\bin", [EnvironmentVariableTarget]::Machine)
+
+powershell -Command "Start-Process powershell -Verb runAs -ArgumentList '[Environment]::SetEnvironmentVariable(\"Path\", $env:Path + \";C:\\Program Files\\Microsoft\\jdk-11.0.27.6-hotspot\\bin\", [EnvironmentVariab
+
+powershell -Command "& { $env:Path = [System.Environment]::GetEnvironmentVariable('Path','Machine'); java -version }"
+
+
+
+curl -fO https://repo.phdata.io/3BCJzuXgtfTCoa6c/toolkit-cli/maven/io/phdata/toolkit/toolkit-cli/0.76.0/toolkit-cli-0.76.0.zip
+
+https://repo.phdata.io/3BCJzuXgtfTCoa6c/toolkit-cli/maven/io/phdata/toolkit/toolkit-cli/0.76.0/toolkit-cli-0.76.0.zip
+
+unzip toolkit-cli-0.75.0.zip
+cd /c/projects/toolkit-cli-0.76.0
+ ./toolkit
+toolkit --help
+
+toolkit init
+export PATH=$PATH:/c/projects/toolkit-cli-0.76.0
+export TOOLKIT_PROJECT_HOME=c/projects/testco_project
+
+echo 'export TOOLKIT_PROJECT_HOME=/c/projects/testco_project' >> ~/.bashrc
+
+export SNOWFLAKE_KEY_FILE_PWD="drexwald"
+
+
+
+eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJwaWtlY2hlQHBoZGF0YS5pbyIsImlzcyI6InBoRGF0YSIsImlhdCI6MTc1MDQyODQxNCwiZXhwIjoxNzgxOTY0NDE0LCJsaWNlbnNlIjoiQUxMIn0.aNmpff1wngaRdwTqd6SI_oBdTZjPbHlgzKSv41zkY8j1jaFuNf5-H-VsiVnGCIxwuIri1oWpdgDEVzz04hW9uhANEd3fpiBu8u58ubFNA1HWMn6dnvyddtLRi7WXejQRhL7MoiDVBb7V6kyXjD8SzExGTSvTTJtbWqq3DFkDtrb9P3_K6Hu9t07_fbk96F69OD5NTOOl6QZeIQonhRJMkLguaFemTxbufF8cUOV489t_v9CVWOOEkMDWnPWiXrdRIdaeyGjBhCoXJVMb-ImjuJsIQv_DKxrRvb5_BryQuy-ZqLWRLWEStDzqZobQCVskiIUIfY59Ali8JslCBFytkQ
+
+
+
+
+
+
+
+

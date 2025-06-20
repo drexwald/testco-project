@@ -1,0 +1,10 @@
+schemas:
+- name: {{schema_name}}
+  database: {{database_name}}
+privilegeGrants:
+- privilege:
+    - create table
+    - usage
+  objectType: schema
+  objectName: {{database_name}}.{{schema_name}}
+  roleName: {{database_name}}_rw

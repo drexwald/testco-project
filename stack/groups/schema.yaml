@@ -1,0 +1,5 @@
+entries:
+- database_name: testco
+  schema_name: market_funnel
+- database_name: testco
+  schema_name: customer_interaction

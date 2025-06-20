@@ -1,6 +1,8 @@
+# User workspaces for development and testing
 defaults:
   default_warehouse: DEFAULT_USER_WH
 entries:
-  - name: ARIA
-  - name: TIM
-    default_warehouse: DEFAULT_USER_WH
+  - name: Nick H
+  - name: Cory
+  - name: Nick P
+  - name: Philip I

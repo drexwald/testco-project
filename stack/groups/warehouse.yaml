@@ -1,3 +1,10 @@
+# Warehouses for users and data products
 entries:
-  - name: default_user
+  - name: salesforce
+    size: SMALL
+  - name: hubspot
+    size: SMALL
+  - name: gong
+    size: SMALL
+  - name: product
     size: SMALL

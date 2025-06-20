@@ -27,12 +27,20 @@ echo 'export TOOLKIT_PROJECT_HOME=/c/projects/testco_project' >> ~/.bashrc
 export SNOWFLAKE_KEY_FILE_PWD="drexwald"
 
 
+rm -rf .git
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/drexwald/testco-project.git
+git push -u origin main
+
 
 eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJwaWtlY2hlQHBoZGF0YS5pbyIsImlzcyI6InBoRGF0YSIsImlhdCI6MTc1MDQyODQxNCwiZXhwIjoxNzgxOTY0NDE0LCJsaWNlbnNlIjoiQUxMIn0.aNmpff1wngaRdwTqd6SI_oBdTZjPbHlgzKSv41zkY8j1jaFuNf5-H-VsiVnGCIxwuIri1oWpdgDEVzz04hW9uhANEd3fpiBu8u58ubFNA1HWMn6dnvyddtLRi7WXejQRhL7MoiDVBb7V6kyXjD8SzExGTSvTTJtbWqq3DFkDtrb9P3_K6Hu9t07_fbk96F69OD5NTOOl6QZeIQonhRJMkLguaFemTxbufF8cUOV489t_v9CVWOOEkMDWnPWiXrdRIdaeyGjBhCoXJVMb-ImjuJsIQv_DKxrRvb5_BryQuy-ZqLWRLWEStDzqZobQCVskiIUIfY59Ali8JslCBFytkQ
 
 
-
-
+toolkit provision apply --local
+toolkit provision apply --plan
 
 
 

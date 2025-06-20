@@ -1,3 +1,12 @@
+# Managed source and product databases
 entries:
-- name: finance
-- name: marketing
+  # Sources
+  - name: Salesforce
+    schema: main
+  - name: Hubspot
+    schema: main
+  - name: Gong
+    schema: main
+  # Products
+  - name: Testco
+    schema: main

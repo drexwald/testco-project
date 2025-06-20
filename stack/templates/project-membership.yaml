@@ -1,4 +1,3 @@
 roleGrants:
-- name: {{name}}_{{access}}
-  toUsers:
-  - {{username}}
+- name: {{project}}_{{access}}
+  toUsers: {{username}}

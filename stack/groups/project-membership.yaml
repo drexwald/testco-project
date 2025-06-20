@@ -1,4 +1,29 @@
 entries:
-- name: finance
-  username: TIM
-  access: RW
+  - project: Salesforce
+    username: 
+        - Nick H
+        - Cory
+        - Nick P
+        - Philip I
+    access: RW
+  - project: Hubspot
+    username: 
+        - Nick H
+        - Cory
+        - Nick P
+        - Philip I    
+    access: RW
+  - project: Gong
+    username: 
+        - Nick H
+        - Cory
+        - Nick P
+        - Philip I    
+    access: RW
+  - project: Product
+    username: 
+        - Nick H
+        - Cory
+        - Nick P
+        - Philip I    
+    access: RW          
